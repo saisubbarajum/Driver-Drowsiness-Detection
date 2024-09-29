@@ -1,7 +1,9 @@
 # Driver-Drowsiness-Detection
 Drowsiness Detection System using EfficientNet and PyTorch. This project implements a deep learning model to classify facial images for signs of drowsiness. Ideal for applications in driver safety and fatigue monitoring
 
-Project Overview
+
+# Project Overview:
+
 The system is designed to detect signs of drowsiness in individuals, which can be crucial for applications such as driver safety monitoring. The model is trained on a dataset of facial images and can distinguish between different states that indicate drowsiness.
 Key Features:
 
@@ -17,7 +19,6 @@ Training set: 2467 images
 Test set: 433 images
 
 Classes:
-
 Open Eyes
 Closed Eyes
 Yawning
@@ -33,7 +34,6 @@ Learning rate scheduler: ReduceLROnPlateau
 Data augmentation techniques: Random resized crop, horizontal flip, rotation, and color jitter
 
 Results
-
 Test Accuracy: 99.31%
 Detailed performance metrics for each class are provided in the classification report.
 
